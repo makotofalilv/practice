@@ -1,0 +1,49 @@
+/*ゲーム全体 */
+body {
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+}
+
+/* ゲームの残り秒数が表示されるタイマーの領域 */
+.count {
+  margin: 0;
+  font-weight: bold;
+  color: #888;
+}
+
+/* テキストが表示される領域 */
+.wrap {
+  margin-top: 20px;
+  padding: 80px 40px;
+  background-color: #666;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* 正しくタイプされた場合のテキスト */
+.typed {
+  background-color: lightgreen;
+}
+
+/* ミスタイプの場合の背景 */
+.mistyped {
+  background-color: red;
+}
+
+#ans {
+  width: 50%;
+  margin: 15px auto;
+  display: none;
+}
+
+.ans {
+  color: #444444;
+  background-color: #cff7f7;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+#ans > div:hover {
+  color: #fff;
+}
