@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bill's Pasta - Events</title>
+    <meta charset="utf-8">
+    <meta description="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Josefin Slabフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- Jomolhariフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomolhari&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header class="header header-color">
+      <div>
+        <a id="logo-a" href="index.html"><div id="logo">Bill's Pasta</div></a>
+      </div>
+      <!-- ハンバーガーメニュー -->
+      <div class="nav">
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+        <!-- ナビゲーション -->
+        <nav class="nav_content">
+          <ul class="nav_list">
+            <li><a class="nav_item" href="index.html">Home</a></li>
+            <li><a class="nav_item" href="menu.html">Menu</a></li>
+            <li><a class="nav_item" href="reservation.html">Reservation</a></li>
+            <li><a class="nav_item" href="events.html">Events</a></li>
+            <li><a class="nav_item" href="events.html#footer">About us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- メイン画像 -->
+      <div class="events-main-img">
+        <img id="events-main-img" src="img/celebration.jpg">
+      </div>
+      <div id="events-main-img-description">
+        <p class="jomolhari" id="events-main-img-title">Events</p>
+      </div>
+
+      <!-- reservation form sentenceセクション -->
+      <section id="event-reserv-form">
+        <div id="event-reserv-form-window">
+          <p id="event-reserv-form-con">&emsp;Let us elevate your event with our warm atmosphere, <br>experienced team, and chef-prepared dishes that your guests <br>are sure to savor. <br>We help you serve a menu as unforgettable and special as <br>your occasion.<br>Every celebration we host is unique, from the guest list and <br>setup, to the menu and wine but each receives the same care <br>and attention to detail</p>
+        </div>
+      </section>
+
+      <!-- reservation formセクション -->
+      <section id="event-form">
+        <div id="event-form-window">
+          <p id="event-info">If you book an event from website, <br>please click below URL and fill out the reservation sheet.</p>
+          <div id="event-form-a-div">
+            <a id="event-form-a" href="events.html"><p id="event-form-btn">Reservation Form</p></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- phoneセクション -->
+      <section id="phone-num">
+        <div id="phone-num-window">
+          <p id="phone-num-sentence">You can also book an event by phone</p>
+          <div id="phone-num-space">
+            <p id="phone-num-name">Phone Number : </p>
+            <p id="phone-num-n">999-9999-9999</p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- セクション -->
+      <section id="events-details">
+
+        <hr class="events-line">
+        <p class="jomolhari" id="events-details-title">Events Details</p>
+        <hr class="events-line">
+
+        <div id="events-details-window">
+          
+          <!-- wedding -->
+          <div id="widding-events">
+            <div id="widding-events-img-div">
+              <img src="img/wedding.jpg">
+            </div>
+            <div id="widding-events-description">
+              <p id="widding-events-description-title" class="jomolhari">Wedding Events</p>
+              <p id="widding-events-description-title-p">This is the sample. This is the sample. <br>This is the sample. This is the sample. </p>
+            </div>
+          </div>
+
+          <!-- holiday and birthday -->
+           <div class="events-list-flex">
+            <div id="holiday" class="ev-div">
+              <img class="events-img" src="img/holiday-event.jpg">
+              <p class="events-titlename jomolhari">Holiday Events</p>
+              <p class="ev-description">This is the sample. This is the sample. This is the sample. This is the sample. </p>
+            </div>
+            <div id="birthday" class="ev-div">
+              <img class="events-img" src="img/birthday.jpg">
+              <p class="events-titlename jomolhari">Birthdays</p>
+              <p class="ev-description">This is the sample. This is the sample. This is the sample. This is the sample. </p>
+            </div>
+           </div>
+
+          <!-- special and corporate -->
+          <div class="events-list-flex">
+            <div id="holiday" class="ev-div">
+              <img class="events-img" src="img/special-event.jpg">
+              <p class="events-titlename jomolhari">Special Celebrations</p>
+              <p class="ev-description">This is the sample. This is the sample. This is the sample. This is the sample. </p>
+            </div>
+            <div id="birthday" class="ev-div">
+              <img class="events-img" src="img/corporate.jpg">
+              <p class="events-titlename jomolhari">Corporate Events</p>
+              <p class="ev-description">This is the sample. This is the sample. This is the sample. This is the sample. </p>
+            </div>
+           </div>
+        </div>
+      </section>
+
+
+    </main>
+    <!-- フッター -->
+    <footer id="footer">
+      <div id="footer-window">
+        <div class="footer-window-div">
+          <p class="footer-div-head">Location</p>
+          <p class="footer-div-cont">999-9999<br>xxxxxxxx-xxxxx</p>
+        </div>
+        <div class="footer-window-div">
+          <p class="footer-div-head">Open & Close</p>
+          <p class="footer-div-cont">11:00 - 22:00</p>
+        </div>
+        <div class="footer-window-div">
+          <p class="footer-div-head">Follow us on<br>Our Socials</p>
+          <a class="footer-a" href="https://youtube.com"><p class="footer-div-cont">Youtube</p></a>
+          <a class="footer-a" href="https://twitter.com"><p class="footer-div-cont">Twitter</p></a>
+          <a class="footer-a" href="https://instagram.com"><p class="footer-div-cont">Instagram</p></a>
+        </div>
+      </div>
+      <p id="copyright">&copy;copyright 2024</p>
+    </footer>
+  </body>
+</html>
