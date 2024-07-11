@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bill's Pasta - Reservation</title>
+    <meta charset="utf-8">
+    <meta description="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Josefin Slabフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- Jomolhariフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomolhari&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header header-color">
+      <div>
+        <a id="logo-a" href="index.html"><div id="logo">Bill's Pasta</div></a>
+      </div>
+      <!-- ハンバーガーメニュー -->
+      <div class="nav">
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+        <!-- ナビゲーション -->
+        <nav class="nav_content">
+          <ul class="nav_list">
+            <li><a class="nav_item" href="index.html">Home</a></li>
+            <li><a class="nav_item" href="menu.html">Menu</a></li>
+            <li><a class="nav_item" href="reservation.html">Reservation</a></li>
+            <li><a class="nav_item" href="events.html">Events</a></li>
+            <li><a class="nav_item" href="reservation.html#footer">About us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- メイン画像 -->
+      <div class="reserv-main-img">
+        <img id="reserv-main-img" src="img/table.jpg">
+      </div>
+      <div id="reserv-main-img-description">
+        <p id="reserv-main-img-title" class="jomolhari">Reservation</p>
+      </div>
+
+      <!-- reserv-formセクション -->
+      <section id="reserv-form">
+        <div id="reserv-form-window">
+          <p id="reserve-info">If you make a reservation online, please click the <br>below URL and fill out the form sheet, then send to us.</p>
+          <div id="reserv-form-a-div">
+            <a id="reserv-form-a" href="reservation.html"><p id="reserv-form-btn">Reservation Form</p></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- move eventsセクション -->
+      <section id="move-evts">
+        <div id="move-evts-window">
+          <p id="move-evts-info">When you plan to have celebration, special events, a meal with <br>friends or banquet up to 60 people, we can arrange your plan. <br>Please feel free to ask us.</p>
+          <div id="move-evts-a-div">
+            <a id="move-evts-a" href="reservation.html"><p id="move-evts-btn">move to events page</p></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- reserv-imgセクション -->
+      <section id="reserv-img">
+        <div id="reserv-img-window">
+          <div id="reserv-img-img-div">
+            <img id="reserv-img-img" src="img/reserved-seat.jpg">
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <!-- フッター -->
+    <footer id="footer">
+      <div id="footer-window">
+        <div class="footer-window-div">
+          <p class="footer-div-head">Location</p>
+          <p class="footer-div-cont">999-9999<br>xxxxxxxx-xxxxx</p>
+        </div>
+        <div class="footer-window-div">
+          <p class="footer-div-head">Open & Close</p>
+          <p class="footer-div-cont">11:00 - 22:00</p>
+        </div>
+        <div class="footer-window-div">
+          <p class="footer-div-head">Follow us on<br>Our Socials</p>
+          <a class="footer-a" href="https://youtube.com"><p class="footer-div-cont">Youtube</p></a>
+          <a class="footer-a" href="https://twitter.com"><p class="footer-div-cont">Twitter</p></a>
+          <a class="footer-a" href="https://instagram.com"><p class="footer-div-cont">Instagram</p></a>
+        </div>
+      </div>
+      <p id="copyright">&copy;copyright 2024</p>
+    </footer>
+  </body>
+</html>
